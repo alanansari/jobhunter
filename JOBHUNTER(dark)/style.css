@@ -1,0 +1,212 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	background-color: #2b2d30;
+	font-family: 'Terbuchet MS';
+	color: white;
+}
+.container{
+	width: 100%; 
+}
+nav{
+	background-color: #2b2d30;
+	width: 100%;
+	padding: 0px 0px 58px 10px;
+	}
+nav a {
+	text-decoration: none;
+}
+nav li{
+	float: left;
+	padding-right: 20px;
+    color: black;
+    display: inline;
+}
+#logo{
+	padding-right:220px; 
+}
+nav button{
+	text-decoration: none;
+	border: solid;
+	color: white;
+	padding: 20px 10px 15px 10px;
+	border-color: #6200EE;
+	background-color: #6200EE;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+}
+nav button:hover{
+	border-color: black;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: black;
+}
+.container{
+	min-height:595px;
+  	background:url('./img/job.jpg');
+  	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	position: relative;
+}
+.container2{
+	min-height:220px; 	
+}
+.container2a{
+	background:url('./img/gogl.png');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.container2d{
+	background:url('./img/isrob.jpg');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+.container2e{
+	background:url('./img/bhel.png');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.container2g{
+	background:url('./img/gogl.png');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.container2h{
+	background:url('./img/gogl.png');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.container2i{
+	background:url('./img/gogl.png');
+	background-attachment:fixed;
+  	background-size:cover;
+  	background-position: bottom;
+  	background-repeat: no-repeat;
+}
+.input{
+	margin: 100px 0px 0px 60px;
+}
+.input h1,h3{
+	width: 25%;
+	padding: 1px 0px 2px 5px;
+	background-color:black;
+	color: white;
+}
+.bar{
+	width: 70%;
+	margin: 75px 150px 30px;
+	padding: 20px 10px 20px 50px;
+	background-color: rgba(106, 109, 114, .7);
+
+}
+.bar input{
+	margin-right: 70px;
+	padding: 10px 7px 10px 7px;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 20px;
+}
+.cont1{
+	width:75%;
+	margin: 20px 10px 10px 130px;
+	padding: 30px 20px 20px 30px;
+	color: white;
+	border-radius: 15px; 
+}
+.bgblue{
+	background-color: #4285F4;
+}
+.bgred{
+	background-color:  #DB4437;
+}
+.bgyellow{
+	background-color: #F4B400;
+	align-content: center;
+}
+.bggreen{
+	background-color: #0F9D58;
+}
+.international{
+	margin: 10px 0px 480px 0px;
+	transform: skewY(2deg);
+}
+.gvrnmnt{
+	margin: 120px 0px 480px 0px;
+	background-color: #6200EE;
+	transform: skewY(-2deg);
+}
+.dmstc{
+	margin: 120px 0px 450px 0px;	
+	transform: skewY(2deg);
+}
+.card{
+  background-color: #25282d;
+  float: left; 
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 10px 0px 10px;
+  cursor: pointer;
+  transition: transform .05s;
+}
+.card img:hover{
+	filter: blur(1.1px);
+	transform: scale(1.01);
+}
+.card:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 8px 8px 0px black;
+}
+.card1{
+	max-width: 325px;
+	
+}
+.card2{
+	max-width: 500px;
+}
+.btn{
+    text-decoration: none;
+	border: solid;
+	border-radius: 5px;
+	color: white;
+	padding: 20px 10px 15px 10px;
+	border-color: #6200EE;
+	background-color: #6200EE;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;	
+}
+.btn:hover{
+	border-color: black;
+	background-color: black;
+}
+.active{
+	background-color: black;
+	border-color: black;
+}
+.bgyellow input{
+	width: 40%;
+	margin: 7px 70px 3px 70px;
+	padding: 10px 7px 10px 7px;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 20px;
+}
